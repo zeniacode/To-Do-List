@@ -29,6 +29,7 @@ header h1{
      margin-bottom: 30px;
 }
 .top-bar input{
+     /* flex: 1 1 30px; */
      flex:30px;
      padding: 10px;
      border: none;
