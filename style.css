@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.6;
+}
+body {
+  font-family: Arial,sans-serif;
+  background: rgb(223, 155, 221);
+  min-height: 100px;
+  padding: 40px;
+}
+.container{
+     max-width: 1000px;
+     margin: auto;
+}
+header{
+     padding: 60px;
+     text-align: center;
+}
+header h1{
+     font-size: 40px;
+}
+/* search box */
+
+.top-bar{
+     display: flex;
+     gap:15px;
+     margin-bottom: 30px;
+}
+.top-bar input{
+     flex:30px;
+     padding: 10px;
+     border: none;
+     border-radius: 15px;
+     font-size: 16px;
+}
+.top-bar button{
+     padding:10px;
+     border:none;
+     border-radius: 20px;
+     font-size:15px;
+}
+/* card-board area */
+
+.card-board{
+     display: flex;
+     flex-wrap: wrap;
+     gap:20px;
+}
+.card{
+     width: 200px;
+     background: white;
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+/* TASK LIST */
+
+ul{
+    list-style:none;
+}
+
+li{
+    margin-bottom:12px;
+    font-size:15px;
+}
+/* add task button */
+
+.task-btn{
+     width: 100px;
+     margin-top: 15px;
+     padding: 10px;
+     border: none;
+     border-radius: 12px;
+}
+/* CARD COLORS */
+
+.study{
+    background:lightgoldenrodyellow;
+}
+
+.work{
+    background:lightblue;
+}
+
+.personal{
+    background:pink;
+}
+
+.shopping{
+    background:palegreen;
+}
