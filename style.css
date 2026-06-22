@@ -6,8 +6,8 @@
 }
 body {
   font-family: Arial,sans-serif;
-  background: rgb(223, 155, 221);
-  min-height: 100px;
+  background-image: linear-gradient(to top, rgba(255,0,0,0), rgb(199, 32, 138));
+  min-height: 100vh;
   padding: 40px;
 }
 .container{
